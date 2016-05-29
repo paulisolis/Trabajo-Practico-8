@@ -1,0 +1,82 @@
+.circulo-titular{
+    position: relative; top: 50px;
+    font-size: 4em;
+    color: $color-celeste;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.servicios{
+	font-family: $fuente;
+	text-align: center;
+	padding: 5%;
+
+	h2{
+	font-size: 4.5em;
+	font-weight: bold;
+	}
+
+	p{
+	font-size: 1.6em;
+	color: gray;	
+	padding-top: 3%;
+	}
+}
+
+
+.ancho{
+	width: 33%;
+	font-family: $fuente;
+	color: gray;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10%;
+}
+
+
+//texto-celular
+
+.texto-celu-der{
+		@include caracteristicas($alinear-derecha)
+		}
+
+.texto-celu-izq{
+		@include caracteristicas($alinear-izquierda)
+		}
+
+
+//iconos-celular
+
+.izquierda{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	border: 2px solid $color-celeste;
+	color: $color-celeste;
+	display: inline-block;
+	position: relative;
+	top: -50px;
+	margin-left: 20px;
+
+	i{
+		font-size: 2em;
+		position: relative;
+		top: 4px;
+		left: 6px;
+	}
+}
+
+
+
+//celular
+
+.celular{
+	width: 28%;
+	display: inline-block;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+.celular img{
+	width: 100%;
+}

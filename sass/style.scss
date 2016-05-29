@@ -1,0 +1,20 @@
+// 1. Variables (siempre van 1ero)
+@import "_variables";
+
+// 2. Mixins (siempre van de 2do)
+@import '_mixins';
+
+// 3. Reset (para poder eliminar los estilos default del browser)
+@import "_reset";
+
+
+// 4. Layout (los estilos de nuestra estructura principal)
+@import "_header";
+@import "_banner-boton";
+@import "_circulos";
+@import "_celular";
+@import "_precios";
+@import "_footer";
+
+// 5. Media-Queries (los media-queries siempre van al final)
+@import '_media-queries';

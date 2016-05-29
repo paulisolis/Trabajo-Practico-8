@@ -1,0 +1,56 @@
+
+.centrado{
+	min-width: 25%;
+	display: inline-block;
+	margin: 0 auto;
+		.celeste{
+		@include productos($color-celeste)
+		}
+		.amarillo{
+		@include productos($color-amarillo)
+		}
+		.naranja{
+		@include productos($color-naranja)
+		}
+		.rojo{
+		@include productos($color-rojo)
+		}
+	}
+
+
+.borde{
+		-webkit-text-stroke: 1px white;
+		}
+
+
+.texto{
+	color: gray;	
+	font-family: $fuente;
+	text-align: center;
+	position: relative; top: 30px;
+
+	h3{
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+		font-size: 1.3em;
+	}
+
+	p{
+		width: 200px;
+		margin:auto;
+		font-size: 1.2em;
+		line-height: 1.6;
+		text-align: center;
+		position: relative; top: 25px;
+	}
+}
+
+
+.circulos{
+	display: inline-block;
+    position: relative; bottom: 66px;
+    font-size: 4em;
+    color: #DCDCDC;
+    margin: -20px;
+}
